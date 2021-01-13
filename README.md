@@ -4,7 +4,7 @@ Aggregation of smart contracts used to make up the Harvest Finance ecosystem.
 
 https://harvest.finance/
 
-*Notice: I am not affliated with Alpha Finance Labs*
+*Notice: I am not affliated with Harvest Finance. This project is purely for educational purposes.*
 
 ## Usage
 

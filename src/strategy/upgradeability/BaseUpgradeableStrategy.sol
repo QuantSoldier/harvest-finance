@@ -3,10 +3,10 @@
 pragma solidity 0.5.16;
 
 
-import {ERC20Detailed} from '@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol';
-import {IERC20} from '@openzeppelin/contracts/token/ERC20/IERC20.sol';
-import {SafeERC20} from '@openzeppelin/contracts/token/ERC20/SafeERC20.sol';
-import {SafeMath} from '@openzeppelin/contracts/math/SafeMath.sol';
+import {ERC20Detailed} from '@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20Detailed.sol';
+import {IERC20} from '@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/IERC20.sol';
+import {SafeERC20} from '@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/SafeERC20.sol';
+import {SafeMath} from '@openzeppelin/contracts-ethereum-package/contracts/math/SafeMath.sol';
 import {Initializable} from '@openzeppelin/upgrades/contracts/Initializable.sol';
 
 import {ControllableInit} from '../../ControllableInit.sol';

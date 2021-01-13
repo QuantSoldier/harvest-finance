@@ -12,15 +12,12 @@ import {Math} from '@openzeppelin/contracts/math/Math.sol';
 import {SafeERC20} from '@openzeppelin/contracts/token/ERC20/SafeERC20.sol';
 import {SafeMath} from '@openzeppelin/contracts/math/SafeMath.sol';
 import {IUniswapV2Pair} from '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
-import {IUniswapV2Router02} from '../../interfaces/IUniswapV2Router02.sol';
-
-import {Controllable} from '../../Controllable.sol';
-import {Storage} from '../../Storage.sol';
 
 import {IStrategy} from '../../interfaces/IStrategy.sol';
-
+import {IUniswapV2Router02} from '../../interfaces/IUniswapV2Router02.sol';
+import {Controllable} from '../../Controllable.sol';
+import {Storage} from '../../Storage.sol';
 import {RewardTokenProfitNotifier} from '../RewardTokenProfitNotifier.sol';
-
 import {SNXRewardInterface} from './SNXRewardInterface.sol';
 
 // OG: https://etherscan.io/address/0xDCB6A51eA3CA5d3Fd898Fd6564757c7aAeC3ca92#code
